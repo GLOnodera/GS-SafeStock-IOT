@@ -52,6 +52,14 @@ Realizei testes com diferentes cenários, desde normais até extremos, para vali
 - O comportamento do sistema em situações críticas
 - A adequação das recomendações de recursos
 
+Para realização de novos testes:
+```bash
+pip install pandas scikit-learn streamlit matplotlib
+```
+```bash
+streamlit run app_abrigo.py
+```
+
 ## 🚀 Ideia para uma possível atualização
 
 - Integrar sistema de alerta via SMS/WhatsApp para coordenação de abrigos, com uso de sensores via ESP32 para medir o nível da água e temperatura no local.
